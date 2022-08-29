@@ -30,7 +30,7 @@ namespace Day3LineComparison
 
             double length1 = Math.Sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
             double length2 = Math.Sqrt((p2 - p1) * (p2 - p1) + (q2 - q1) * (q2 - q1));
-          //Console.WriteLine(length1.Equals(length2));
+
             if (length2 == length1)
             {
                 Console.WriteLine("Lines are equal");
