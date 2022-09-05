@@ -12,7 +12,6 @@ namespace Day3LineComparison
             {
                 int x1 = 12, y1 = 13, x2 = 43, y2 = 15;
 
-
                 double length1 = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
 
                 return length1;
