@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to line comparison");
-            Console.WriteLine("Enter Number\n 1.Calculate Length of Line\n2.equality\n3.Check Greater or Less");
+            Console.WriteLine("Enter Number\n 1.Calculate Length of Line\n2.equality\n3.Check Greater or Less\n4.Line Comaparison Using Oop Concept");
             int num = Convert.ToInt32(Console.ReadLine());
             switch (num)
             {
@@ -17,6 +17,11 @@
                     break;
                 case 3:
                     GreaterOrLess.Compare();
+                    break;
+                case 4:
+                     Console.WriteLine(UsingOopConcept.CompareTwoLines());
+                     Compare compare = new Compare();
+                     compare.CompareTwoLines();
                     break;
                 default:
                     Console.WriteLine("Entered Wrong Number");
